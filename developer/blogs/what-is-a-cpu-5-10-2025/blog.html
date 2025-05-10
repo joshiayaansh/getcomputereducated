@@ -8,7 +8,7 @@
 </head>
 <body>
   <div id="content"></div>
-
+   
   <script>
     fetch('blog.md')
       .then(res => res.text())
@@ -17,5 +17,12 @@
         document.getElementById('content').innerHTML = converter.makeHtml(md);
       });
   </script>
+  blah blah blah
+  <footer>
+    <p>&copy; 2025 GetComputerEducated
+      <strong>This work is covered by the GNU General Public License v3.0 (GPL-3.0).
+      You can redistribute it and/or modify it under the terms of the GPL-3.0.</strong>
+    </p>
+  </footer>
 </body>
 </html>
