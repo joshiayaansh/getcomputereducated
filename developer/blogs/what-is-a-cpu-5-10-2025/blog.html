@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Markdown Page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
+</head>
+<body>
+  <div id="content"></div>
+
+  <script>
+    fetch('blog.md')
+      .then(res => res.text())
+      .then(md => {
+        const converter = new showdown.Converter();
+        document.getElementById('content').innerHTML = converter.makeHtml(md);
+      });
+  </script>
+</body>
+</html>
