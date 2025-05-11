@@ -6,5 +6,5 @@ A CPU calculates bits as `0` or `1` rather any numbers. These bits are derived f
 ## How do they work?
 CPUs work by translating all of the `machine code` into bits that it can understand.
 > 💡 Hint: A program goes through: C# -> Assembly -> Linker -> Machine Code
-##### Now that you know all about CPUs, It's time to delve into the world of computers. 
-###### Thanks for reading!
+## Now that you know all about CPUs, It's time to delve into the world of computers. 
+## Thanks for reading!
