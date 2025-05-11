@@ -8,5 +8,5 @@ Welcome to **GetComputerEducated** — your go-to destination for cutting-edge t
 <br>
 <a href="hardware.html">🔲 Hardware Blogs</a>
 <a href="operating-systems.html"> 🪟 Operating Systems</a>
-<a href="developers.html"> 🪟 Operating Systems</a>
+<a href="developers.html"> Developers</a>
 
